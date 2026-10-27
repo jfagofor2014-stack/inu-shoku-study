@@ -1,0 +1,17 @@
+{
+  "name": "犬の食と健康 学習ノート",
+  "short_name": "犬の食ノート",
+  "description": "犬のフード・栄養・サプリ・よくある相談を、根拠の強さと受診の目安つきで学ぶ学習アプリ",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f3ee",
+  "theme_color": "#9c4f2c",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>犬の食と健康 学習ノート</title>
+  <meta name="description" content="犬のフード・栄養・サプリ・よくある相談（涙やけ、腎臓病、食べない、歩けない など）を、根拠の強さと受診の目安つきで学ぶ学習アプリ">
+  <meta name="theme-color" content="#9c4f2c">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="topbar">
+    <span id="topbar-title">犬の食と健康 学習ノート</span>
+  </header>
+  <div id="save-banner" class="save-banner" role="alert" hidden>この端末では学習の記録を保存できていません（ストレージの空きやブラウザの設定を確認してください）</div>
+  <main id="view"></main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <nav id="tabs" aria-label="画面の切り替え">
+    <button class="tab" data-tab="read"><span aria-hidden="true">📖</span>よむ</button>
+    <button class="tab" data-tab="cards"><span aria-hidden="true">🃏</span>カード</button>
+    <button class="tab" data-tab="test"><span aria-hidden="true">✏️</span>テスト</button>
+    <button class="tab" data-tab="cases"><span aria-hidden="true">💬</span>相談</button>
+    <button class="tab" data-tab="tools"><span aria-hidden="true">🧮</span>道具</button>
+  </nav>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
